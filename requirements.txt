@@ -1,0 +1,21 @@
+# User Interface
+streamlit             # For creating a user interface
+
+# Database and Environment Management
+pymongo               # For MongoDB integration
+python-dotenv         # For environment variable management
+
+# NLP, Model Management, and Embeddings
+transformers          # For loading and using language models
+langchain             # For managing and chaining model calls
+faiss-cpu             # For efficient similarity search
+sentence-transformers # For working with sentence embeddings
+
+# LLaMA Model Dependencies
+sentencepiece         # For tokenization (required by some LLaMA models)
+ollama                # For integrating with LLaMA from LM Studio
+
+# Machine Learning and Data Processing
+torch                 # For deep learning model support
+pandas==2.0.3         # For data manipulation
+numpy==1.26.4         # For numerical operations
